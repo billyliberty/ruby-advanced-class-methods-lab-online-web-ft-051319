@@ -47,7 +47,6 @@ class Song
     title = filename.split(" - ")
     artist = title[0]
     song_name, extension = title[1].split(".")
-
     song = self.new
     song.artist_name = artist
     song.name = song_name
@@ -58,8 +57,7 @@ class Song
     title = filename.split(" - ")
     artist = title[0]
     song_name, extension = title[1].split(".")
-
-     song = self.create
+    song = self.create
     song.artist_name = artist
     song.name = song_name
     song
